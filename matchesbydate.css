@@ -122,8 +122,8 @@ input[type="date"]:not(:focus) {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   font-family: Arial, sans-serif;
   outline: none;
-  background-color: rgb(32, 44, 36);
-  color: #f1f1f1;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
 
 }
 
