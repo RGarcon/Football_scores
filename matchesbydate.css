@@ -124,6 +124,7 @@ input[type="date"] {
   outline: none;
   background-color: rgb(32, 44, 36);
   color: #f1f1f1;
+  -webkit-text-fill-color: #000000;
 
 }
 
