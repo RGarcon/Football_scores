@@ -382,5 +382,10 @@ select {
     left: 20%;
   
   }
+  
+  input[type="date"]:not(:focus) {
+  color: #f1f1f1 !important;
+  background-color: rgb(32, 44, 36) !important;
+}
 
 }
