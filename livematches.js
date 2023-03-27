@@ -196,7 +196,7 @@ competitionSelect.addEventListener("change", function() {
   // Do something immediately
   updatePage_live()
 
-  // Call the updatePage_live function every 30 secondes (30000 milliseconds)
-  setInterval(updatePage_live, 30000);
+  // Call the updatePage_live function every 5hours (18000000 milliseconds)
+  setInterval(updatePage_live, 18000000);
 
 });
