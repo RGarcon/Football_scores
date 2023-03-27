@@ -230,8 +230,8 @@ competitionSelect.addEventListener("change", function() {
   // Do something immediately
   updatePage_perdate()
 
-  // Call the updatePage_live function every 30 secondes (60000 milliseconds)
-  setInterval(updatePage_perdate, 60000);
+  // Call the updatePage_perdate function every 5 hours (18000000 milliseconds)
+  setInterval(updatePage_perdate, 18000000);
 
 });
 
@@ -241,7 +241,7 @@ dateControl.addEventListener("change", function() {
   // Do something immediately
   updatePage_perdate()
 
-  // Call the updatePage_live function every 30 secondes (30000 milliseconds)
-  setInterval(updatePage_perdate, 30000);
+  // Call the updatePage_perdate function every 5 hours (18000000 milliseconds)
+  setInterval(updatePage_perdate, 18000000);
 
 });
